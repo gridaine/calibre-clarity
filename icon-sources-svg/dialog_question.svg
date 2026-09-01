@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-codex-visual-weight="clarity-visual-weight-20260809" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.230769) translate(-64.0000 -64.0000)">
+    <g data-codex-transform="clarity-visual-weight-20260809" transform="translate(64 64) scale(1.08) translate(-64 -64)">
+      <g fill="none" stroke="#636366" stroke-width="8.26" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="64" cy="64" r="38" />
+        <path d="M51 51 C54 39 75 39 78 51 C81 62 65 65 65 76" />
+        <circle cx="65" cy="88" r="4" fill="#636366" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

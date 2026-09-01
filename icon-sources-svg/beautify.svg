@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-codex-visual-weight="clarity-visual-weight-20260809" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.417722) translate(-64.0000 -64.0000)">
+    <g data-codex-transform="clarity-visual-weight-20260809" transform="translate(64 64) scale(1.08) translate(-64 -64)">
+      <g fill="none" stroke="#636366" stroke-width="7.08" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="31" y="31" width="66" height="66" rx="15" />
+      </g>
+      <text x="64" y="76" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#636366">B</text>
+    </g>
+  </g>
+</svg>

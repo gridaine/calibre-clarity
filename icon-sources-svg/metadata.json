@@ -1,0 +1,10 @@
+{
+  "name": "calibre_clarity",
+  "title": "Calibre Clarity",
+  "author": "Loic Gridaine",
+  "version": 2,
+  "description": "SVG source artwork for the accessible Calibre Clarity icon theme.",
+  "license": "CC BY 4.0",
+  "url": "https://github.com/gridaine/calibre-clarity",
+  "color_palette": "light"
+}

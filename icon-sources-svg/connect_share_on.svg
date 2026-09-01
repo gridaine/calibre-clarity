@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-codex-visual-weight="clarity-visual-weight-20260809" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.160622) translate(-64.0000 -67.8750)">
+    <g data-codex-transform="clarity-visual-weight-20260809" transform="translate(64 64) scale(1.08) translate(-64 -64)">
+      <g fill="none" stroke="#34C759" stroke-width="7.08" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="34" cy="45" r="11" />
+        <circle cx="94" cy="45" r="11" />
+        <circle cx="64" cy="90" r="11" />
+        <line x1="45" y1="49" x2="83" y2="49" />
+        <line x1="40" y1="55" x2="58" y2="80" />
+        <line x1="88" y1="55" x2="70" y2="80" />
+      </g>
+    </g>
+  </g>
+</svg>

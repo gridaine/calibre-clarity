@@ -1,0 +1,140 @@
+{
+  "name": "Calibre Clarity",
+  "version": 1,
+  "icon_palette": "light",
+  "gui_preferences": {
+    "action-layout-searchbar": [],
+    "action-layout-toolbar": [
+      "Add Books"
+    ],
+    "action-layout-toolbar-device": [
+      "Add Books",
+      "Send To Device"
+    ],
+    "book_details_comments_heading_pos": "above",
+    "book_details_note_link_icon_width": 1.15,
+    "book_details_splitter_horizontal_state": [
+      true,
+      260
+    ],
+    "book_details_splitter_vertical_state": [
+      true,
+      120
+    ],
+    "color_palette": "light",
+    "cover_browser_max_font_size": 16,
+    "cover_browser_reflections": false,
+    "cover_grid_background": {
+      "dark": [
+        28,
+        28,
+        30
+      ],
+      "dark_texture": null,
+      "light": [
+        248,
+        248,
+        250
+      ],
+      "light_texture": null,
+      "migrated": true
+    },
+    "cover_grid_height": 8.8,
+    "cover_grid_show_title": true,
+    "cover_grid_spacing": 0.0,
+    "cover_grid_text_flush_bottom": true,
+    "cover_grid_width": 7.65,
+    "field_under_covers_in_grid": "title",
+    "grid view visible": true,
+    "icons_on_right_in_tag_browser": false,
+    "light_palette_name": "Clarity Light",
+    "light_palettes": {
+      "Clarity Light": {
+        "Accent": "#8E8E93",
+        "AlternateBase": "#F7F7F9",
+        "Base": "#FFFFFF",
+        "BrightText": "#FFFFFF",
+        "Button": "#F2F2F7",
+        "ButtonText": "#1D1D1F",
+        "ButtonText-disabled": "#8E8E93",
+        "Highlight": "#E5E7EB",
+        "HighlightedText": "#1D1D1F",
+        "HighlightedText-disabled": "#8E8E93",
+        "Link": "#0066CC",
+        "LinkVisited": "#5856D6",
+        "PlaceholderText": "#8E8E93",
+        "Text": "#1D1D1F",
+        "Text-disabled": "#8E8E93",
+        "ToolTipBase": "#FFFFFF",
+        "ToolTipText": "#1D1D1F",
+        "ToolTipText-disabled": "#8E8E93",
+        "Window": "#F5F5F7",
+        "WindowText": "#1D1D1F",
+        "WindowText-disabled": "#8E8E93"
+      }
+    },
+    "search bar visible": true,
+    "search_tool_bar_shows_text": false,
+    "show_layout_buttons": false,
+    "tag browser search box visible": true,
+    "tag_browser_hide_empty_categories": true,
+    "tag_browser_item_padding": 1.0,
+    "tag_browser_show_category_icons": true,
+    "tag_browser_show_counts": false,
+    "tag_browser_show_value_icons": false,
+    "tag_browser_splitter_horizontal_state": [
+      true,
+      235
+    ],
+    "toolbar_icon_size": "medium",
+    "toolbar_text": "never",
+    "ui_style": "system",
+    "wrap_toolbar_text": false
+  },
+  "library_preferences": {
+    "book_display_fields": [
+      ["title", true],
+      ["authors", true],
+      ["rating", true],
+      ["series", true],
+      ["tags", true],
+      ["formats", true],
+      ["pubdate", true],
+      ["pages", true],
+      ["publisher", false],
+      ["languages", false],
+      ["identifiers", false],
+      ["path", false],
+      ["author_sort", false],
+      ["sort", false],
+      ["timestamp", false],
+      ["uuid", false],
+      ["comments", true],
+      ["id", false],
+      ["last_modified", false],
+      ["size", false]
+    ],
+    "popup_book_display_fields": [
+      ["title", true],
+      ["authors", true],
+      ["series", true],
+      ["rating", true],
+      ["tags", true],
+      ["formats", true],
+      ["publisher", true],
+      ["pubdate", true],
+      ["pages", true],
+      ["languages", true],
+      ["identifiers", true],
+      ["path", true],
+      ["size", true],
+      ["timestamp", true],
+      ["last_modified", true],
+      ["author_sort", true],
+      ["sort", true],
+      ["id", true],
+      ["uuid", true],
+      ["comments", true]
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-codex-visual-weight="clarity-visual-weight-20260809" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.175853) translate(-62.3750 -61.2500)">
+    <g data-codex-transform="clarity-visual-weight-20260809" transform="translate(64 64) scale(1.08) translate(-64 -64)">
+      <g fill="none" stroke="#AF52DE" stroke-width="7.08" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="35" y1="96" x2="91" y2="40" />
+        <line x1="78" y1="27" x2="103" y2="52" />
+        <line x1="83" y1="35" x2="96" y2="48" />
+        <path d="M34 32 L37 41 L47 44 L38 48 L35 58 L31 49 L22 45 L31 41 Z" />
+      </g>
+    </g>
+  </g>
+</svg>

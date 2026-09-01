@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-codex-icon="clarity-menu-weight" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.197861) translate(-64.0000 -64.0000)">
+    <g fill="none" stroke="#636366" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="22" y="22" width="34" height="34" rx="7" />
+      <rect x="72" y="22" width="34" height="34" rx="7" />
+      <rect x="22" y="72" width="34" height="34" rx="7" />
+      <rect x="72" y="72" width="34" height="34" rx="7" />
+    </g>
+  </g>
+</svg>

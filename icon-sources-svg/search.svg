@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-codex-icon="clarity-submit-search" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.544828) translate(-60.0000 -64.0000)">
+    <g fill="none" stroke="#2C2C2E" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M28 64h64" />
+      <path d="M68 40l24 24-24 24" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="40" viewBox="0 0 1000 40">
+  <rect width="1000" height="40" fill="#ffffff"/>
+  <g transform="translate(27 8)" fill="none" stroke="#6e6e73" stroke-width="1.7" stroke-linecap="round">
+    <path d="M3 3v18M6 3v18M10 3v18M14 3v18M17 3v18M21 3v18"/>
+    <path d="M1 5V2h3M20 2h3v3M1 19v3h3M20 22h3v-3"/>
+  </g>
+</svg>

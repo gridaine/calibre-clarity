@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.204301) translate(-64.0000 -64.0000)">
+    <g fill="none" stroke="#007AFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="64" cy="64" r="42" />
+      <line x1="64" y1="39" x2="64" y2="89" />
+      <line x1="39" y1="64" x2="89" y2="64" />
+    </g>
+  </g>
+</svg>

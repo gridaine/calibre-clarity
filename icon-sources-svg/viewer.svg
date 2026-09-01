@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" data-codex-visual-weight="clarity-visual-weight-20260809" data-clarity-menu-readability="1">
+  <g transform="translate(64 64) scale(1.309942) translate(-64.0000 -68.7500)">
+    <g data-codex-transform="clarity-visual-weight-20260809" transform="translate(64 64) scale(1.08) translate(-64 -64)">
+      <g fill="none" stroke="#636366" stroke-width="7.08" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M28 42 C39 35 50 35 61 42 V99 C50 91 39 91 28 99 Z" />
+        <path d="M100 42 C89 35 78 35 67 42 V99 C78 91 89 91 100 99 Z" />
+        <line x1="64" y1="43" x2="64" y2="100" />
+      </g>
+    </g>
+  </g>
+</svg>

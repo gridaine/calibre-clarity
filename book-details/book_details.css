@@ -1,0 +1,354 @@
+/*
+Calibre Clarity book details theme.
+Kept deliberately simple because calibre's Qt rich text renderer supports only
+an older, limited subset of CSS.
+*/
+
+body, td {
+    color: #1d1d1f;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.24;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+body.horizontal table td.title {
+    white-space: nowrap;
+}
+
+a {
+    color: #0a84ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0071e3;
+    text-decoration: none;
+}
+
+table.fields {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #1d1d1f;
+    margin: 0;
+    padding: 20px 26px 0 26px;
+}
+
+table.fields td {
+    background-color: #ffffff;
+    border: 0;
+    vertical-align: middle;
+}
+
+table.fields td.title {
+    color: #6e6e73;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.2;
+    padding: 8px 14px;
+    text-align: left;
+    text-transform: none;
+    white-space: nowrap;
+    width: 126px;
+}
+
+table.fields td.value {
+    color: #1d1d1f;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-left: 11px;
+}
+
+table.fields a {
+    color: #1d1d1f;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#title td.title,
+#authors td.title,
+#rating td.title,
+#series td.title,
+#tags td.title,
+#formats td.title,
+#pubdate td.title,
+#pages td.title {
+    color: #ffffff;
+    display: none;
+    font-size: 1px;
+    padding: 0;
+    width: 0;
+}
+
+#title td.value {
+    color: #1d1d1f;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.08;
+    padding-top: 12px;
+    padding-right: 27px;
+    padding-bottom: 4px;
+}
+
+#authors td.value {
+    color: #1d1d1f;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 4px;
+}
+
+#rating td.value {
+    color: #3a3a3c;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 4px;
+}
+
+#tags td.value,
+#series td.value {
+    color: #3a3a3c;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 18px;
+}
+
+#tags td.value a,
+#series td.value a {
+    color: #3a3a3c;
+    font-weight: 600;
+}
+
+#formats td.value,
+#pages td.value,
+#pubdate td.value {
+    background-color: #ffffff;
+    border: 0 !important;
+    color: #1d1d1f;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.25;
+    white-space: nowrap;
+}
+
+#formats td.value {
+    background-color: #ffffff;
+    background-image: url("__CALIBRE_TEMPLATES_URI__/read-book.svg");
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 24px 10px 62px;
+}
+
+#pubdate td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/calendar-info.svg");
+    padding: 8px 24px 3px 62px;
+}
+
+#pages td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/pages-info.svg");
+    padding: 3px 24px 18px 62px;
+}
+
+#formats td.value a {
+    background-color: #ffffff;
+    color: #0071e3;
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+#formats td.value a:hover {
+    background-color: #ffffff;
+    color: #005bb5;
+}
+    
+#pages td.value a,
+#pubdate td.value a {
+    background-color: #ffffff;
+    color: #1d1d1f;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0px 0 0;
+    padding: 0;
+}
+
+#pubdate td.value,
+#pages td.value {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.series_name {
+    font-style: normal;
+    font-weight: 600;
+}
+
+table.fields a:hover,
+#tags td.value a:hover,
+#series td.value a:hover {
+    color: #0071e3;
+}
+
+body.horizontal #title td.value {
+    font-size: 24px;
+    line-height: 1.1;
+}
+
+body.horizontal #authors td.value {
+    font-size: 16px;
+}
+
+body.horizontal #rating td.value,
+body.horizontal #tags td.value,
+body.horizontal #series td.value {
+    font-size: 15px;
+}
+
+#identifiers td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-identifier.svg");
+}
+
+#path td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-folder.svg");
+}
+
+#publisher td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-publisher.svg");
+}
+
+#languages td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-language.svg");
+}
+
+#author_sort td.value,
+#title_sort td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-sort.svg");
+}
+
+#timestamp td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-calendar.svg");
+}
+
+#last_modified td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-modified.svg");
+}
+
+#uuid td.value,
+#id td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-info.svg");
+}
+
+#size td.value {
+    background-image: url("__CALIBRE_TEMPLATES_URI__/field-storage.svg");
+}
+
+#identifiers td.value,
+#path td.value,
+#publisher td.value,
+#languages td.value,
+#author_sort td.value,
+#title_sort td.value,
+#timestamp td.value,
+#last_modified td.value,
+#uuid td.value,
+#id td.value,
+#size td.value {
+    background-repeat: no-repeat;
+    padding: 8px 14px 8px 62px;
+}
+
+#uuid td.value,
+#id td.value,
+#author_sort td.value,
+#title_sort td.value {
+    color: #6e6e73;
+    font-size: 13px;
+}
+
+#uuid td.value a,
+#id td.value a,
+#author_sort td.value a,
+#title_sort td.value a {
+    color: #6e6e73;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+div {
+    background-color: #ffffff;
+}
+
+.comments,
+div.comments {
+    background-color: #ffffff;
+    color: #5c5c61;
+    margin: 22px 27px 0 27px;
+    padding: 0 28px 32px 0;
+    text-indent: 0;
+}
+
+.comments-heading {
+    background-color: #ffffff;
+    color: #1d1d1f;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.18;
+    margin: 22px 28px 0 27px;
+    padding: 0 0 7px 0;
+}
+
+.comments p,
+div.comments p {
+    background-color: #ffffff;
+    color: #5c5c61;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 0 0 12px 0;
+    padding: 0;
+}
+
+.comments h1,
+.comments h2,
+.comments h3,
+div.comments h1,
+div.comments h2,
+div.comments h3 {
+    background-color: #ffffff;
+    color: #1d1d1f;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.comments em,
+div.comments em {
+    color: #5c5c61;
+}

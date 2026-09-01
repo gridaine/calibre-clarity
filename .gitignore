@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+.venv/
+dist/
+/Calibre Clarity - icon theme.zip
+/calibre-clarity-icon-theme.zip
