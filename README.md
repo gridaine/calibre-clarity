@@ -1,6 +1,6 @@
 # Calibre Clarity
 
-Calibre Clarity is a selectable visual profile designed to make calibre easier
+Calibre Clarity is an icon theme designed to make calibre easier
 to understand, calmer to scan, and more accessible to a broad range of users.
 
 Its design priorities are:
@@ -30,9 +30,34 @@ install it from the editable resources by opening:
 Select the `icon-theme-png` folder and use the metadata already included in
 that folder.
 
-The optional layout profile and book-details stylesheet are kept in this
-repository as development resources. They are not applied by the native icon
-theme and are not part of the no-installer user workflow.
+The native icon theme changes icons only. It does not apply CSS, move panels or
+change your layout preferences. Inclusion in the built-in catalogue requires
+acceptance by the calibre maintainers after submission on MobileRead.
+
+## Optional book-details presentation
+
+The separate `calibre-clarity-ux.zip` pack provides a self-contained book-details
+stylesheet and manual layout recommendations, with no executable installer.
+It is independent of the icon theme and intended for a light interface.
+Install and restore it using the [English guide](docs/OPTIONAL_UX.md) or the
+[French guide](docs/OPTIONAL_UX.fr.md). The pack is prepared locally for release;
+until it is attached to a GitHub release, it is not a published download.
+
+The existing `theme_manager.py` and `profile.json` are development tools, not
+the recommended installation method: they apply a much broader set of personal
+preferences, including library settings. Do not use them to install the optional
+CSS pack. The manual pack changes no preferences or library data automatically.
+
+Reference testing covers calibre 9.13 on macOS. Windows and Linux visual
+validation is still needed.
+
+## MobileRead submission
+
+The [submission guide](docs/MOBILEREAD.fr.md) explains the catalogue request and
+links to an English forum message ready to use. The native icon ZIP and its
+preview belong in the calibre forum thread; the optional UX pack is separate.
+The guide also documents `build_distribution.py`, which prepares both packages
+without changing the user's calibre configuration.
 
 ## Native icon archive
 
